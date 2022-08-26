@@ -31,9 +31,10 @@ body{
 }
 /* --header! */
 .logo{
+    font-family:var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color:#2196F3;
 
@@ -48,6 +49,7 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 
 .menu-link:focus,
@@ -198,6 +200,8 @@ body{
 }
 
 .page-footer-map{
+    font-family:var(--secondary-font);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -210,6 +214,7 @@ body{
 }
 
 .page-footer-mail {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -222,6 +227,7 @@ body{
 }
 
 .page-footer-tel{
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
