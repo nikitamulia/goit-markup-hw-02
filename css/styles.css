@@ -52,6 +52,10 @@ body{
     color: var(--primary-text-color);
 }
 
+.current{
+    color: var(--accent-color);
+}
+
 .menu-link:focus,
 .menu-link:hover {
     color:var(--accent-color);
@@ -200,7 +204,6 @@ body{
 }
 
 .page-footer-map{
-    font-family:var(--secondary-font);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
